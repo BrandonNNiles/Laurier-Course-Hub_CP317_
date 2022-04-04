@@ -28,7 +28,7 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 
 ###### Front End
 
-- [React framework] (https://reactjs.org/) in addition to: <br>
+- [React framework](https://reactjs.org/) in addition to: <br>
   1. HTML5
   2. CSS3
   3. Javascript
@@ -37,7 +37,7 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 
 - [Java](https://www.java.com/en/) with [Spring framework](https://spring.io/)
 
-- [MySQL] (https://www.mysql.com/) for managing the SQL database
+- [MySQL](https://www.mysql.com/) for managing the SQL database
 
 
 ## How to run the code:
