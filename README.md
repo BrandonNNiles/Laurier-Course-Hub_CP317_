@@ -8,7 +8,17 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 
 ## Features
 
+- Course pages are generated for all courses at WLU which are searchable through LCH's database or can be filtered to find specific requirements.
 
+- Allows for anonymity for users to provide free speech and an honest opinion.
+
+- Community is self-regulation through a voting system for comments, files, and courses offered at WLU.
+
+- File sharing is available to allow a collective gathering of past and present course syllabuses or course-related material.
+
+- Live discussions allows users to asking questions, provide opinions or reviews of subjects, or finding groups for projects.
+
+- Report unnecessary spam, abuse, or inappropriate comments that are unrelated to the topic.
 
 ## Technologies Used / Dependencies 
 
