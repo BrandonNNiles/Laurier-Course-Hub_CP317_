@@ -40,6 +40,18 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+
+  .login img{
+    width: 10%;
+    cursor: pointer;
+  }
+  
+  .login label{
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+
   
   .nav_header {
     font-size: 20px;
