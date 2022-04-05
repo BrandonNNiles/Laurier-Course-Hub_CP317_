@@ -55,5 +55,5 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 	4. We've already deployed the project. Just head to the site link below.
 	Do not open the project through index.html or other raw files.
 	
--[Site](https://extraordinary-kangaroo-f5ea2c.netlify.app/).
+[Site](https://extraordinary-kangaroo-f5ea2c.netlify.app/)
 
