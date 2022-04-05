@@ -9,6 +9,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/stylesheets/317.css">
+        <script src="../../src/comments.js" type = "module" defer></script>
+        <script src="https://d3js.org/d3.v7.min.js" type="text/JavaScript"></script>
     </head>
     <body>
         <!--Navigation bar at the top of the page-->
@@ -34,13 +36,13 @@
             </ul>
         </header>
 
+        <!--Course Name and General Information-->
         <div class ="wrapper">
             <section class="course">
                 <div class="course-info">
                     <h1>CP363: Database I</h1>
                     <p><span>Department: </span>Computer Science</p>
-                    <p><span>Description: </span>Introduction to database systems. Topics include data models, query languages, database design, recovery and concurrency, integrity and security.
-                    </p>
+                    <p><span>Description: </span>Introduction to database systems. Topics include data models, query languages, database design, recovery and concurrency, integrity and security.</p>
                     <p><span>Prerequites: </span>CP164 (or CP114)</p>
                     <p><span>Most Recent Professor: </span>Dr. Ilias Kotsireas</p>
                     <ul>
@@ -48,15 +50,18 @@
                         <li><img src="/imgs/leaf.png" alt=""></li>
                         <li><img src="/imgs/leaf.png" alt=""></li>
                         <li><img src="/imgs/leaf.png" alt=""></li>
-                        <li>(20 votes)</li>
+                        <li>(21 votes)</li>
                     </ul>
                 </div>
             </section>
         </div>
         
+        <!--Comments and Resource Section-->
         <section class="content">
+            <!--Comments-->
             <div class="comments">
-                <div class="commentDisplay" id="allComments"><img src="/imgs/placeholder-comments.png" alt=""></div>
+                <label for="allComments"><h2>Comments</h2></label>
+                <div class="commentDisplay" id="allComments"></div>
                 <ul>
                     <li><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66669 8.33333C5.75383 8.33333 5.00002 9.08714 5.00002 10V30C5.00002 30.9129 5.75383 31.6667 6.66669 31.6667H33.3334C34.2462 31.6667 35 30.9129 35 30V10C35 9.08714 34.2462 8.33333 33.3334 8.33333H6.66669ZM1.66669 10C1.66669 7.24619 3.91288 5 6.66669 5H33.3334C36.0872 5 38.3334 7.24619 38.3334 10V30C38.3334 32.7538 36.0872 35 33.3334 35H6.66669C3.91288 35 1.66669 32.7538 1.66669 30V10Z" fill="black"/>
@@ -67,7 +72,7 @@
                     <li><button class="addComments" id="addComment">Post</button></li>
                 </ul>
             </div>
-
+            <!--Reources-->
             <div class="resources">
                 <h2>Resources</h2>
                 <ul class="resource-list">
@@ -99,16 +104,6 @@
                         </ul>
                     </li>
 
-                    <li>
-                        <ul class="resource-folder">
-                            <li><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66666 6.66667C6.22463 6.66667 5.8007 6.84226 5.48814 7.15482C5.17558 7.46739 4.99999 7.89131 4.99999 8.33334V31.6667C4.99999 32.1087 5.17558 32.5326 5.48814 32.8452C5.80071 33.1577 6.22463 33.3333 6.66666 33.3333H33.3333C33.7753 33.3333 34.1993 33.1577 34.5118 32.8452C34.8244 32.5326 35 32.1087 35 31.6667V13.3333C35 12.8913 34.8244 12.4674 34.5118 12.1548C34.1993 11.8423 33.7753 11.6667 33.3333 11.6667H18.3333C17.7761 11.6667 17.2557 11.3882 16.9466 10.9245L14.108 6.66667H6.66666ZM3.13112 4.7978C4.0688 3.86012 5.34057 3.33334 6.66666 3.33334H15C15.5572 3.33334 16.0776 3.61184 16.3867 4.0755L19.2253 8.33334H33.3333C34.6594 8.33334 35.9312 8.86012 36.8689 9.7978C37.8065 10.7355 38.3333 12.0073 38.3333 13.3333V31.6667C38.3333 32.9928 37.8065 34.2645 36.8689 35.2022C35.9312 36.1399 34.6594 36.6667 33.3333 36.6667H6.66666C5.34057 36.6667 4.0688 36.1399 3.13112 35.2022C2.19344 34.2645 1.66666 32.9928 1.66666 31.6667V8.33334C1.66666 7.00725 2.19344 5.73548 3.13112 4.7978Z" fill="black"/>
-                                </svg>
-                            </li>
-                            <li>Winter 2022 Notes</li>
-                        </ul>
-                    </li>
-
                     <ul class="resource-file">
                         <li><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M6.46447 3.13113C7.40215 2.19345 8.67392 1.66667 10 1.66667H21.6667C22.1087 1.66667 22.5326 1.84226 22.8452 2.15482L34.5118 13.8215C34.8244 14.134 35 14.558 35 15V33.3333C35 34.6594 34.4732 35.9312 33.5355 36.8689C32.5979 37.8065 31.3261 38.3333 30 38.3333H10C8.67392 38.3333 7.40215 37.8065 6.46447 36.8689C5.52678 35.9312 5 34.6594 5 33.3333V6.66667C5 5.34058 5.52678 4.06881 6.46447 3.13113ZM10 5C9.55797 5 9.13405 5.17559 8.82149 5.48815C8.50893 5.80072 8.33333 6.22464 8.33333 6.66667V33.3333C8.33333 33.7754 8.50893 34.1993 8.82149 34.5118C9.13405 34.8244 9.55797 35 10 35H30C30.442 35 30.8659 34.8244 31.1785 34.5118C31.4911 34.1993 31.6667 33.7754 31.6667 33.3333V15.6904L20.9763 5H10Z" fill="black"/>
@@ -116,6 +111,15 @@
                             </svg>
                         </li>
                         <li>Midterm Review Notes</li>
+                    </ul>
+
+                    <ul class="resource-file">
+                        <li><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.46447 3.13113C7.40215 2.19345 8.67392 1.66667 10 1.66667H21.6667C22.1087 1.66667 22.5326 1.84226 22.8452 2.15482L34.5118 13.8215C34.8244 14.134 35 14.558 35 15V33.3333C35 34.6594 34.4732 35.9312 33.5355 36.8689C32.5979 37.8065 31.3261 38.3333 30 38.3333H10C8.67392 38.3333 7.40215 37.8065 6.46447 36.8689C5.52678 35.9312 5 34.6594 5 33.3333V6.66667C5 5.34058 5.52678 4.06881 6.46447 3.13113ZM10 5C9.55797 5 9.13405 5.17559 8.82149 5.48815C8.50893 5.80072 8.33333 6.22464 8.33333 6.66667V33.3333C8.33333 33.7754 8.50893 34.1993 8.82149 34.5118C9.13405 34.8244 9.55797 35 10 35H30C30.442 35 30.8659 34.8244 31.1785 34.5118C31.4911 34.1993 31.6667 33.7754 31.6667 33.3333V15.6904L20.9763 5H10Z" fill="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6667 1.66667C22.5871 1.66667 23.3333 2.41286 23.3333 3.33333V13.3333H33.3333C34.2538 13.3333 35 14.0795 35 15C35 15.9205 34.2538 16.6667 33.3333 16.6667H21.6667C20.7462 16.6667 20 15.9205 20 15V3.33333C20 2.41286 20.7462 1.66667 21.6667 1.66667Z" fill="black"/>
+                            </svg>
+                        </li>
+                        <li>Final Exam Notes</li>
                     </ul>
 
                 </li>

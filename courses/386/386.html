@@ -9,6 +9,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/stylesheets/317.css">
+        <script src="../../src/comments.js" type = "module" defer></script>
+        <script src="https://d3js.org/d3.v7.min.js" type="text/JavaScript"></script>
     </head>
     <body>
         <!--Navigation bar at the top of the page-->
@@ -34,13 +36,13 @@
             </ul>
         </header>
 
+        <!--Course Name and General Information-->
         <div class ="wrapper">
             <section class="course">
                 <div class="course-info">
                     <h1>CP386: Operating Systems</h1>
                     <p><span>Department: </span>Computer Science</p>
-                    <p><span>Description: </span>Topics include operating system services, file systems, CPU scheduling, memory management, virtual memory, disk scheduling, deadlocks, concurrent processes, protection and distributed systems.
-                    </p>
+                    <p><span>Description: </span>Topics include operating system services, file systems, CPU scheduling, memory management, virtual memory, disk scheduling, deadlocks, concurrent processes, protection and distributed systems.</p>
                     <p><span>Prerequites: </span>CP216, CP217 or CP264</p>
                     <p><span>Exclusions: </span>CP466</p>
                     <p><span>Most Recent Professor: </span>Dr. Evgueni Zima</p>
@@ -49,15 +51,18 @@
                         <li><img src="/imgs/leaf.png" alt=""></li>
                         <li><img src="/imgs/leaf.png" alt=""></li>
                         <li><img src="/imgs/leaf.png" alt=""></li>
-                        <li>(72 votes)</li>
+                        <li>(47 votes)</li>
                     </ul>
                 </div>
             </section>
         </div>
         
+        <!--Comments and Resource Section-->
         <section class="content">
+            <!--Comments-->
             <div class="comments">
-                <div class="commentDisplay" id="allComments"><img src="/imgs/placeholder-comments.png" alt=""></div>
+                <label for="allComments"><h2>Comments</h2></label>
+                <div class="commentDisplay" id="allComments"></div>
                 <ul>
                     <li><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66669 8.33333C5.75383 8.33333 5.00002 9.08714 5.00002 10V30C5.00002 30.9129 5.75383 31.6667 6.66669 31.6667H33.3334C34.2462 31.6667 35 30.9129 35 30V10C35 9.08714 34.2462 8.33333 33.3334 8.33333H6.66669ZM1.66669 10C1.66669 7.24619 3.91288 5 6.66669 5H33.3334C36.0872 5 38.3334 7.24619 38.3334 10V30C38.3334 32.7538 36.0872 35 33.3334 35H6.66669C3.91288 35 1.66669 32.7538 1.66669 30V10Z" fill="black"/>
@@ -68,7 +73,7 @@
                     <li><button class="addComments" id="addComment">Post</button></li>
                 </ul>
             </div>
-
+            <!--Reources-->
             <div class="resources">
                 <h2>Resources</h2>
                 <ul class="resource-list">
