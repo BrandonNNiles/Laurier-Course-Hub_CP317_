@@ -26,5 +26,12 @@
   right: 5px;
   height: 50px;
   width: 110px;
-  background: blue;
+  background: grey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
