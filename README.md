@@ -37,7 +37,7 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 - [React framework](https://reactjs.org/) in addition to: <br>
   1. HTML5
   2. CSS3
-  3. Javascript
+  3. JavaScript
 
 ###### Back End
 
@@ -48,7 +48,7 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 
 ## How to run the code:
 
-	1. Download ZIP from github repository.
+	1. Download ZIP from GitHub repository.
 	2. Extract downloaded ZIP folder (should be called Laurier-Course-Hub-CP317-main.zip).
 	3. Drop the unzipped Laurier-Course-Hub-CP317-main file into a web applications server like Heroku or Netlify.
 	OR
