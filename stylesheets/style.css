@@ -26,5 +26,23 @@
   right: 5px;
   height: 50px;
   width: 110px;
-  background: blue;
+  background: grey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #5a189a !important;
+}
+
+.btn-outline-primary {
+  border-color: #5a189a !important;
 }

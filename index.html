@@ -21,18 +21,88 @@
     <title>LCH: Laurier Course Hub</title>
   </head>
   <body>
-    <!-- Header Nav Bar with Logo on left, search bar in middle -->
+    <!-- laurier logo in center of screen -->
     <div class="container">
-      <div class="d-flex mt-3 ms-0">
-        <img src="imgs/laurier_logo1 1.png" alt="" />
-        <div class="col-md-6">
-          <div class="search">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Search for a course, resource, etc."
-            />
-            <button class="btn btn-primary">Search</button>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <h1 class="mt-5 d-flex aligns-items-center justify-content-center">
+              <img
+                src="imgs/laurier_logo1 1.png"
+                alt="Laurier Main Logo"
+                style="width: 35%"
+              />
+            </h1>
+            <p class="lead">
+              Welcome to the Laurier Course Hub! This is a website that allows
+              students to find courses and resources that they can use to
+              improve their knowledge.
+            </p>
+            <hr class="my-4" />
+          </div>
+        </div>
+        <div style="position: absolute; top: 20px; left: 80%">
+          <label for="login_pfp">View Account</label>
+          <img style="width: 30px" src="/imgs/user_pfp.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Google Search Bar -->
+    <div class="container">
+      <div class="row">
+        <div class="align-items-center justify-content-center">
+          <script
+            async
+            src="https://cse.google.com/cse.js?cx=c80f9614e6c74ac50"
+          ></script>
+          <div class="gcse-search"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mt-4">
+          <!-- CP317 Course button -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">CP317</h5>
+              <p class="card-text">Software Engineering.</p>
+              <a href="courses/317.html" class="btn btn-primary">
+                View Course
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mt-4">
+          <!-- CP363 Course button -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">CP363</h5>
+              <p class="card-text">Databases.</p>
+              <a href="courses/363.html" class="btn btn-primary">
+                View Course
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mt-4">
+          <!-- CP386 Course button -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">CP386</h5>
+              <p class="card-text">Operating Systems.</p>
+              <a href="courses/386.html" class="btn btn-primary">
+                View Course
+              </a>
+            </div>
           </div>
         </div>
       </div>
