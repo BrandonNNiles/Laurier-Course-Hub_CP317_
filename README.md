@@ -39,11 +39,17 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
   2. CSS3
   3. JavaScript
 
+####### Web Application Servers
+- [Heroku](https://www.heroku.com/)
+	OR
+- [Netlify](https://www.netlify.com/)
+
 ###### Back End
 
 - [Java](https://www.java.com/en/) with [Spring framework](https://spring.io/)
 
 - [MySQL](https://www.mysql.com/) for managing the SQL database
+
 
 
 ## How to run the code:
