@@ -1,8 +1,14 @@
 # CP317 - Group Project: Laurier Course Hub (LCH)
 
-###### The only features that are implemented are:
+###### Main Implemented Features:
 
-- placeholder
+- Laurier Course Hub Landing Page
+- CP317: Software Engineering Course Page
+- CP363: Database I Course Page
+- CP386: Operating Systems Course Page
+- Load Student Comments
+- Write Student Comments
+- Access CP317 resources
 
 ## Overview
 
@@ -42,5 +48,9 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 
 ## How to run the code:
 
-	1. placeholder
+	1. Download ZIP from github repository.
+	2. Open downloaded ZIP folder (should be called Laurier-Course-Hub-CP317-main.zip).
+	3. Open index.html with browser of choice.
+	OR
+	4. Drop the unzipped Laurier-Course-Hub-CP317-main file into a web applications server like Heroku or Netlify.
 
