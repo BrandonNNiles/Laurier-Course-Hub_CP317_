@@ -52,7 +52,8 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 	2. Extract downloaded ZIP folder (should be called Laurier-Course-Hub-CP317-main.zip).
 	3. Drop the unzipped Laurier-Course-Hub-CP317-main file into a web applications server like Heroku or Netlify.
 	OR
-	4. We've already deployed the project. Just head to this link --> [Site](https://extraordinary-kangaroo-f5ea2c.netlify.app/).
+	4. We've already deployed the project. Just head to the site link below.
+	Do not open the project through index.html or other raw files.
 	
-	Do not open index.html and view project through raw files.
+-[Site](https://extraordinary-kangaroo-f5ea2c.netlify.app/).
 
