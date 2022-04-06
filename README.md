@@ -1,8 +1,14 @@
 # CP317 - Group Project: Laurier Course Hub (LCH)
 
-###### The only features that are implemented are:
+###### Main Implemented Features:
 
-- placeholder
+- Laurier Course Hub Landing Page
+- CP317: Software Engineering Course Page
+- CP363: Database I Course Page
+- CP386: Operating Systems Course Page
+- Load Student Comments
+- Write Student Comments
+- Access CP317 resources
 
 ## Overview
 
@@ -26,21 +32,36 @@ Laurier Course Hub (LCH) is an online interactive site designed by students, for
 
 ## Technologies Used / Dependencies 
 
-###### Front End
+##### Front End
 
 - [React framework](https://reactjs.org/) in addition to: <br>
   1. HTML5
   2. CSS3
-  3. Javascript
+  3. JavaScript
 
-###### Back End
+###### Web Application Servers
+- [Heroku](https://www.heroku.com/)
+
+	OR
+	
+- [Netlify](https://www.netlify.com/)
+
+##### Back End
 
 - [Java](https://www.java.com/en/) with [Spring framework](https://spring.io/)
 
 - [MySQL](https://www.mysql.com/) for managing the SQL database
 
 
+
 ## How to run the code:
 
-	1. placeholder
+	1. Download ZIP from GitHub repository.
+	2. Extract downloaded ZIP folder (should be called Laurier-Course-Hub-CP317-main.zip).
+	3. Drop the unzipped Laurier-Course-Hub-CP317-main file into a web applications server like Heroku or Netlify.
+	OR
+	4. We've already deployed the project. Just head to the site link below.
+	Do not open the project through index.html or other raw files.
+	
+[Site](https://extraordinary-kangaroo-f5ea2c.netlify.app/)
 

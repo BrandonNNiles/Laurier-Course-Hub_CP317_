@@ -51,7 +51,6 @@ body {
     font-weight: bold;
   }
 
-
   
   .nav_header {
     font-size: 20px;
@@ -224,9 +223,6 @@ body {
     padding-left: 0;
   }
 
-
-
-
   .search {
     position: relative;
     box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
@@ -259,5 +255,17 @@ body {
     background-color: #762cc0;
 
   }
+
+#allComments{
+  background-color: rgb(234, 234, 234);
+  border-radius: 2em;
+  height: 450px;
+  border-color: #5A189A;
+  border-style: outset;
+}
+
+
+
+
   
   /*# sourceMappingURL=main.css.map */
