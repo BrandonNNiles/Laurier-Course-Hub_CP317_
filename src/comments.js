@@ -1,6 +1,9 @@
-//import fs from 'fs';
-let datapath = '/courses/317/comments.json';
+let datapath = '/courses/317/comments.json'; //location of comments for course
 
+/* drawComments(data)
+Draws the comments for a course page
+    data: array of JSON objects
+*/
 function drawComments(data){
     let width = 500;
     let height = 500;
@@ -15,42 +18,9 @@ function drawComments(data){
         .text(d => d['Name'] + ': ' + d['content'])
         .attr('x', 50)
         .attr('y', d => i += 1 * 50)
-
 }
 
-/*
-function initializeComments(path){
-
-    let obj = {
-        comments: new Array()
-    }
-
-    const data = JSON.stringify(obj)
-    fs.writeFile(path, data, (error) => {
-        if(error){
-            console.log(error);
-        }
-    })
-}
-
-try {
-    let datapath = '/courses/317/comments.json';
-    if (fs.existsSync(datapath)){
-        console.log("Comments loaded: " + datapath);
-    } else {
-        console.log('test')
-        initializeComments(datapath)
-    }
-} catch(error){
-    console.log(error)
-}
-
-
-function createComment(element){
-
-}
-*/
-
+//Load and parse data
 d3.json(datapath).then((data, error) => {
     if(error){console.log(error); return;} 
     drawComments(data.Comments);
